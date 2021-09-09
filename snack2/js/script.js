@@ -47,11 +47,13 @@ for (let i = 0; i < squadre.length; i++) {
     
     let obj = {};
 
-    obj.nome = squadre[i].nome;
-    obj.falliSubiti = squadre[i].falliSubiti;
+    const {nome, falliSubiti} = squadre[i];
+
+    obj.nome = nome;
+    obj.falliSubiti = falliSubiti;
     
     arr.push(obj);
 
 }
 
-console.log(arr)
+console.log(arr);
