@@ -39,9 +39,18 @@ for (let i = 0; i < squadre.length; i++) {
 
 // Infine usando la destrutturazione creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console.
 const arr = [];
+let obj = {};
 for (let i = 0; i < squadre.length; i++) {
+    
     const {nome, falliSubiti} = squadre[i];
-    arr.push(nome, falliSubiti)
+
+    obj.nome = nome;
+    obj.falliSubiti = falliSubiti;
+
+
+   
+
+    // arr.push(nome, falliSubiti)
 
 }
 
