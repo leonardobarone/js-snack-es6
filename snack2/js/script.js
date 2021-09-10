@@ -31,6 +31,7 @@ const squadre = [
 // Generare numeri random al posto degli 0 nelle proprietà:
 // Punti fatti e falli subiti.
 const random = (a) => Math.floor(Math.random() * a + 1);
+// const random = (min, max) => Math.floor(Math.random() * (max - min + 1));
 
 for (let i = 0; i < squadre.length; i++) {
     squadre[i].falliSubiti = random(100);
